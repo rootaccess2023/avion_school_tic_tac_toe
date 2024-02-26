@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe Game</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="module" src="main.js" defer></script>
+<body>
+    <main>
+        <img class="mouth" src="src/img/mouth.png" alt="BMO">
+        <section class="game-board"></section>
+        <section class="result-screen">
+            <div class="sub-screen">
+                <div>
+                    <h1 class="results">Player vs. player? Get set for an epic showdown. Player X first!</h1>
+                </div>
+            </div>
+            <div class="oblong right-eye"></div>
+            <div class="oblong left-eye"></div>
+        </section>
+        <section class="menu">
+            <div>
+                <div class="player-btn">
+                    <ul>
+                        <li class="player-player">
+                            <img class="bmo-img-player" src="src/img/mini-bmo.gif" alt="">
+                            <span>Player vs Player</span>
+                        </li>
+                        <li class="ticbot-player">
+                            <img class="bmo-img-bmo hide" src="src/img/mini-bmo.gif" alt="">
+                            <span>BMO vs Player</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="player-option-btn">
+                <div class="sub-option-btn">
+                    <div class="button player-new-game">
+                        <li>New Game</li>
+                    </div>
+                    <div class="undo-redo-btn">
+                        <li class="button undo-button">Undo</li>
+                        <li class="button redo-button">Redo</li>
+                    </div>            
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
