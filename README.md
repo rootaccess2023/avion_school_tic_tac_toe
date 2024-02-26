@@ -24,7 +24,7 @@ This repository contains the code for a Tic Tac Toe game, designed to meet speci
 
 To play the game, simply visit the provided link to the game's hosted version. If you wish to contribute or make modifications, you can fork the repository, make your changes, and submit a pull request for review.
 
-[Play Tic Tac Toe Game](https://your-github-username.github.io/tic-tac-toe/)
+[Play Tic Tac Toe Game](https://rootaccess2023.github.io/avion_school_tic_tac_toe/)
 
 <img src="/Tic Tac Toe.png">
 
